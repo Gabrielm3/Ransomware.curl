@@ -16,11 +16,15 @@ Ransomware is a malware designed to deny a user or organization access to files 
 
 Clone this repository:
 
-`git clone https://github.com/gabrielm3/Ransomware.curl.git`
+```
+git clone https://github.com/gabrielm3/Ransomware.curl.git
+```
 
 Navigate to the project directory:
 
-`cd Ransomware.curl`
+```
+cd Ransomware.curl
+```
 
 ## Usage
 
@@ -28,14 +32,18 @@ Navigate to the project directory:
 
 To encrypt files, you can use the 'enc.py' script. This script encrypts all files in a specified directory and saves the encryption key in the 'key.key' file. The basic usage is as follows:
 
-`python enc.py [directory]`
+```
+python enc.py [directory]
+```
 
     [directory] (optional): the directory that contains the files to be encrypted. The default is 'files' if not provided.
 
 ### Decrypting Files (dec.py)
 
 To decrypt files encrypted by the 'enc.py' script, you can use the 'dec.py' script. This script recursively searches for encrypted files and decrypts them using the encryption key from the 'key.key' file. The basic usage is as follows:
-`python dec.py [directory_path]`
+```
+python dec.py [directory_path]
+```
 
     [directory_path] (optional): The path to the directory containing the encrypted files. If not provided, the script will use the 'files' directory in the current directory as the default.
 
