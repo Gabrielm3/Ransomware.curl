@@ -1,0 +1,6 @@
+2024-06-10 13:37:25,406:INFO:Encrypted file: /mnt/d/Projetos/Ransomware.curl/files/email.txt
+2024-06-10 13:37:25,415:INFO:Encrypted file: /mnt/d/Projetos/Ransomware.curl/files/password.txt
+2024-06-10 13:37:25,424:INFO:Encrypted file: /mnt/d/Projetos/Ransomware.curl/files/zlists.txt
+2024-06-10 13:40:48,102:INFO:Decrypted file: /mnt/d/Projetos/Ransomware.curl/files/email.txt
+2024-06-10 13:40:48,111:INFO:Decrypted file: /mnt/d/Projetos/Ransomware.curl/files/password.txt
+2024-06-10 13:40:48,120:INFO:Decrypted file: /mnt/d/Projetos/Ransomware.curl/files/zlists.txt
